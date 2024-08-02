@@ -246,31 +246,6 @@
   background-size: cover;
 }
 
-/*** Team ***/
-.team-item {
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
-}
-
-.team-item img {
-  transition: 0.5s;
-}
-
-.team-item:hover img {
-  transform: scale(1.1);
-}
-
-.team-item .btn {
-  background: #ffffff;
-  color: var(--primary);
-  border-radius: 20px;
-  border-bottom: 1px solid var(--primary);
-}
-
-.team-item .btn:hover {
-  background: var(--primary);
-  color: #ffffff;
-}
-
 /*** Testimonial ***/
 .testimonial-carousel::before {
   position: absolute;
@@ -327,7 +302,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
-  color: #ffffff;
+  color: var(--primary) !important;
 }
 
 .testimonial-carousel .owl-dots {
@@ -349,8 +324,8 @@
 }
 
 .testimonial-carousel .owl-dot.active {
-  background: var(--primary);
-  border-color: var(--primary);
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
 }
 
 /*** Footer ***/
